@@ -5,9 +5,7 @@ body{
 #heading{
    font-size: 36px;
    font-weight: bold;
-   letter-spacing: 2px;
-   
-   
+   letter-spacing: 2px; 
 }
 #board{
    width: 350px;
@@ -17,6 +15,20 @@ body{
    display: flex;
    flex-wrap: wrap;
 }
+.wordle_board{
+   width:100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+.wordle_box{
+   display: flex;
+   flex-direction:row;
+   
+
+}
+
 .box{
    border: 2px solid blue;;
    width: 60px;
@@ -28,4 +40,27 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
+   animation-delay: 400ms;
+}
+.keyboard button {
+   height: 40px;
+   width: 40px;
+   border-radius: 0px;
+   border: 5px solid #0251a0;
+   margin: 2px;
+   cursor: pointer;
+   
+  
+}
+.box-green{
+   background-color: green !important;
+   color: white !important;
+}
+.box-yellow {
+   background-color: yellow !important;
+   color: white !important;
+}
+.box-grey{
+   background-color: grey !important;
+   color: white !important;
 }
