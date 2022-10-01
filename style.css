@@ -31,7 +31,7 @@ body{
 }
 
 .box{
-   border: 2px solid blue;;
+   border: 5px solid blue;;
    width: 60px;
    height: 60px;
    margin: 2.5px;
@@ -41,7 +41,6 @@ body{
    display: flex;
    justify-content: center;
    align-items: center;
-   animation-delay: 400ms;
 }
 .keyboard button {
    height: 40px;
