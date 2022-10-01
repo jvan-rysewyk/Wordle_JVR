@@ -1,26 +1,24 @@
-# Wordle! (wordle project)
+This is a link to my [live game of wordle](https://jvan-rysewyk.github.io/Wordle_JVR/)
 
 
-Wordle project
+This is my 1st project for the Software Engineering Immersive programe with General Assembly Australia.
+This project was structured to engage not only all the learning that we have had since beggining the program, But also to see if i could push past my limits.
 
-## Work Plan
+I ran into a few problems along the way and still currently have a problem with the box's changing to green if the letter is in the word twice and is in the correct position.
+I realise the problem is using data-key made things harder for myself to work with, in the i know with this perticular project i could have used (class) and (id) to be able to iterate through the logic easier. 
 
-Row's 3 & 4 set height and width for the number of guesses and length of the words which we will use in a function to create our game-board.
+I am open for any tips if there are any which i am sure there are in assisting me to being able to complete this step.
 
-LIST OF VALID WORDS put into object of strings to which we can use for our random generated secret word.
-
- 1st FUNCTION: Created for the board to display on the webpage, While the 1st for loop is setting the hight of the game-board, The 2nd for loop is setting the width of the game-board.
-
- creating elements and pending empty boxes to the board by using (box.innerText = '') to set an empty string and getting elementById to appendChild (box) to the parent board.
-
- All the while setting the css as i go to set style for the boxes with height, width, and color, also setting it for inner text to be centered when inserted once game is in action.
+I also ran into a problem with setting color to the keys once selected not changing color.
 
 
 
-- [ ] Create HTML
-- [ ] get a clear vision of the game
-- [ ] split project into small sections
-- [ ] split again into high/low level task
-- [ ] Create CSS
-- ....
+Technologies, Libraries and Languages Utilized
+
+1. HTML
+2. Css
+3. javaScript
+
+
+
 
